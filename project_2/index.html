@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body>
+    <main>
+        <!-- delete br when make css code and make it with css -->
+        <h2>Connect your <Br> Google account</h2>
+            <form action="/v1/api/signup" method="post">
+        
+                <fieldset>
+                    <label for="name">Name</label>
+                    <input id="name" type="text" name="name" required>
+                </fieldset>
+        
+                <fieldset>
+                    <label for="username">Username</label>
+                    <input id="username" type="text" name="username" required>
+                </fieldset>
+
+                <!-- delete br when make css code and make it with css -->
+                <br>
+        
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" required>
+                </fieldset>
+
+                <!-- delete br when make css code and make it with css -->
+                <br>
+        
+                <fieldset>
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="password" placeholder="6+ characters" minlength="6" required autocomplete="off">
+                </fieldset>
+
+                <!-- delete br when make css code and make it with css -->
+                <br>
+        
+                <fieldset>
+                    <input id="checkbox" type="checkbox" required>
+                    <label for="checkbox">
+                        I agree with Dribbble's 
+                        <a href="#" aria-label="Terms of Service">Terms of Service</a>,
+                        <a href="#" aria-label="Privacy Policy">Privacy Policy</a>, and
+                        <a href="#" aria-label="Notification Settings">Notification Settings</a>.
+                    </label>
+                </fieldset>
+            
+                <!-- delete br when make css code and make it with css -->
+                <br>
+                
+                <button type="submit">Create Account</button>
+            </form>
+        <p>Already have an account? <a href="#">Sign In</a></p>
+        <P>This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.</P>     
+
+        
+
+
+
+    </main>
+</body>
+</html>

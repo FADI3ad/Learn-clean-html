@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Project Managementm</title>
+</head>
+<body>
+    <main>
+        <h2>Project Management</h2>
+        <form action="/v1/api/" method="post">
+            <table>
+                <tr>
+                    <td>Project Name</td>
+                    <td><input type="text" placeholder="enter project name"></td>
+                </tr>
+                <tr>
+                    <td>Assigned to </td>
+                    <td>
+                        <select name="select" id="" aria-placeholder="dolor">
+                            <option value="Lorem">Lorem</option>
+                            <option value="ipsum">ipsum</option>
+                            <option value="dolor">dolor</option>
+                        </select>
+                     </td>
+                </tr>
+                <tr>
+                    <td>Start Date</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>End Date</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Priority</td>
+                    <td>
+                        <input type="radio" name="priority" value="high"  id="high">
+                        <label for="high">High</label>
+                        <input type="radio" name="priority" value="average" id="average"> 
+                        <label for="average">Average</label>
+                        <input type="radio" name="priority" value="low" id="low"> 
+                        <label for="low">Low</label>
+                    </td>
+                </tr>
+            </table>
+            <div class="buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </div>
+        </form>
+    </main>
+
+
+
+
+    
+</body>
+</html>
